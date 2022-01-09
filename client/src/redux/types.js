@@ -1,0 +1,3 @@
+export const SELECT_ONE_FIELD = "SELECT_ONE_FIELD"
+export const SELECT_ALL_FIELDS = "SELECT_ALL_FIELDS"
+
