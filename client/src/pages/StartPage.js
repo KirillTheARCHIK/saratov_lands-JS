@@ -71,7 +71,7 @@ export const StartPage = () => {
                         height: 160,
                         width: '233px'
                     }}>
-                        <Box onClick={()=>{history.push('/main')}} sx={{ 
+                        <Box onClick={()=>{history.push('/main/')}} sx={{ 
                             borderRadius: '100px', 
                             cursor: 'pointer', 
                             border: '', 

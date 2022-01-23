@@ -1,4 +1,4 @@
-import { SELECT_ALL_FIELDS, SELECT_ONE_FIELD } from "../types";
+import { FILL_FIELDS_LIST, SET_SELECTED_FIELD } from "../types";
 
 const initialState = {
     fields: [],
@@ -6,12 +6,12 @@ const initialState = {
 }
 export const MapReducer = (state = initialState, action) => {
     switch (action.type) {
-        case SELECT_ONE_FIELD:
+        case SET_SELECTED_FIELD:
             return {
                 ...state,
                 selectedField: action.payload
             }
-        case SELECT_ALL_FIELDS:
+        case FILL_FIELDS_LIST:
             return{
                 ...state,
                 fields: action.payload
